@@ -1,4 +1,4 @@
-name: Deploy features to non-production bucker
+name: Deploy features to production bucket
 
 on:
   push:
