@@ -1,4 +1,4 @@
-name: Deploy features to non-production bucker
+name: Deploy features to the non-production bucket
 
 on:
   push:
@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      BUCKET_NAME: cfst-3457-1107d1782b472f94c6207bb81-nonprodbucket-1wdwfgr0ikqkh
+      BUCKET_NAME: cfst-3457-4bae11f524e65675b87dbef3e-nonprodbucket-1voejlf9tt2q5
     steps:
       - name: Checkout the code
         uses: actions/checkout@v2
